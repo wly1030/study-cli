@@ -1,0 +1,25 @@
+{
+  "name": "wly-study-cli",
+  "version": "1.0.0",
+  "description": "仅供测试，别下载",
+  "main": "index.js",
+  "bin": {
+    "studyCli": "./bin/index"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["测试"],
+  "author": "wly",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^4.0.0",
+    "commander": "^11.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.4",
+    "ora": "^5.4.1"
+  }
+}
